@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #4F5155;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('Desktop.png');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #E13300;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Partner Logos Section */
+.partners {
+    padding: 50px;
+    text-align: center;
+    margin: 10px;
+    background-color: #FAF3DD80;
+}
+
+.partner-logos img {
+    width: 100px;
+    margin: 0 30px;
+}
+
+/* Services Section */
+.services {
+    padding: 50px;
+  
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card {
+    
+    padding: 20px;
+  
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #FAF3DD80;
+    margin-top: 5%
+    ;
+ 
+}
+
+.feature-cards {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Events Section */
+.events {
+    padding: 50px;
+    background-image: url('event-background.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+
+
+/* Style for the image slider */
+/*  */
+
+/* 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+} */
+
+/* Contact Section */
+.contact-section {
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 80%;
+    max-width: 100%;
+    text-align: center;
+    /* margin: 40px 0; */
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header h2 {
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.contact-header h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.option {
+    margin: 0 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.option.active {
+    border-bottom: 2px solid #f0a500;
+}
+
+.map-section {
+    position: relative;
+}
+
+.map-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.call-us-button {
+    background-color: #f0a500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+
+    
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.footer-links div {
+    flex: 1;
+    text-align: left;
+    margin: 0 10px;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+    color: #f0a500;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.footer-social,
+.footer-apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-icons img {
+    width: 100px;
+    margin: 5px;
+}
