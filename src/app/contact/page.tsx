@@ -1,4 +1,4 @@
-'use client';  // Add this line to mark the component as a Client Component
+'use client'; // Add this line to mark the component as a Client Component
 
 import React, { useState } from 'react';
 import Navbar from '../componenets/Navbar';
@@ -18,6 +18,7 @@ const ContactUs = () => {
   return (
     <>
       <div className="flex flex-col min-h-screen">
+        {/* Navbar and main content */}
         <div className="flex-grow">
           <Navbar />
           <div className="max-w-4xl mx-auto p-6 sm:p-12 mt-10 bg-gray-50 text-center rounded-lg shadow-lg">
@@ -57,9 +58,10 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="bg-gray-100 py-8">
+        {/* Footer, always sticks to the bottom */}
+        <footer className="bg-gray-100 ">
           <Footer />
-        </div>
+        </footer>
       </div>
     </>
   );
